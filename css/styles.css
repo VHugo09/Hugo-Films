@@ -1,12 +1,27 @@
 h1 {color : #fff;}
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
 
-*{font-family: 'Roboto';}
+:root{
+    --bg-gray: #ddd;
+    --color-primary: black;
+    --white: #fff;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+
+h1, h2, h3, h4 { margin: 0%;}
 
 header {
-    background-color: black;
-    color: #fff;
+    background-color: var(--color-primary);
+    color: var(--white);
+    height: 60px;
+    display: flex;
+    align-items: center;
 }
 
 a, a:hover { 
@@ -15,13 +30,32 @@ a, a:hover {
 }
 
 html, body {
-    background-color: #ddd;
+    background-color: var(--bg-gray);
 }
 
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
 
+nav h1 { 
+    font-size: 30px;
+    font-weight: 400;
+}
 
+nav a {
+    font-size: 15px;
+    font-weight: 200;
+
+}
+
+.hugofilms-contact-container {
+    display: flex;
+    align-items: center;
+
+}
+
+.hugofilms-contact-container img {
+    margin-right: 10px;
 }
