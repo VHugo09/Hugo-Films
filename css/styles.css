@@ -1,5 +1,27 @@
-h1 {color : black;}
+h1 {color : #fff;}
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 
 *{font-family: 'Roboto';}
+
+header {
+    background-color: black;
+    color: #fff;
+}
+
+a, a:hover { 
+    color: unset;
+    text-decoration: none;
+}
+
+html, body {
+    background-color: #ddd;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
