@@ -59,3 +59,10 @@ nav a {
 .hugofilms-contact-container img {
     margin-right: 10px;
 }
+
+.hugofilms-card {
+    width: 1110px;
+    height: 800px;
+    background-color: var(--white);
+
+}
