@@ -4,8 +4,9 @@ h1 {color : #fff;}
 
 :root{
     --bg-gray: #ddd;
-    --color-primary: black;
+    --color-primary: #000;
     --white: #fff;
+    --text-gray: #4a4a4a
 }
 
 *{
@@ -61,8 +62,44 @@ nav a {
 }
 
 .hugofilms-card {
-    width: 1110px;
-    height: 800px;
+    width: 360px;
     background-color: var(--white);
+    border-radius: 8px;
 
+}
+
+#hfs-card-list {
+    padding: 40px 0;
+}
+
+.hugofilms-card img {
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.hfs-card-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0 20px 0;
+}
+
+.hfs-card-description h3 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.hfs-btn, .hfs-btn:hover {
+    width: 180px;
+    height: 40px;
+    background-color: var(--color-primary);
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
 }
