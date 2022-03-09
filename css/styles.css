@@ -103,3 +103,9 @@ nav a {
     justify-content: center;
     border-radius: 6px;
 }
+
+.hfs-form-container {
+    padding: 60px 0;
+    max-width: 700px;
+   ;
+}
