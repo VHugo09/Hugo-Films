@@ -62,7 +62,7 @@ nav a {
 }
 
 .hugofilms-card {
-    width: 360px;
+    width: 100%;
     background-color: var(--white);
     border-radius: 8px;
 
