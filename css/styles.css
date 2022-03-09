@@ -6,7 +6,8 @@ h1 {color : #fff;}
     --bg-gray: #ddd;
     --color-primary: #000;
     --white: #fff;
-    --text-gray: #4a4a4a
+    --text-gray: #4a4a4a;
+    --star-yellow: #ffbb3a;
 }
 
 *{
@@ -82,7 +83,9 @@ nav a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     padding: 10px 0 20px 0;
+    height: 400px;
 }
 
 .hfs-card-description h3 {
@@ -103,6 +106,33 @@ nav a {
     flex-direction: column;
     align-items: center;
     padding: 0px 20px 20px 20px;
+}
+
+.hfs-card-description-bot img {
+    width: 22px;
+    margin-top: 0%;
+    margin-bottom: 10px;
+}
+
+.hfs-card-description-bot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hfs-card-description-bot h4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 0 0 250px;
+    color: var(--star-yellow);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.hfs-card-description-bot p {
+    color: var(--text-gray);
+    margin-bottom: 10px;
 }
 
 .hfs-btn, .hfs-btn:hover {
